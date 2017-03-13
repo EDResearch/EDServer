@@ -1,2 +1,0 @@
-# EDServer
-EDCAN server framework
