@@ -1,0 +1,44 @@
+{
+  "name" : "iwin.js",
+  "version" : "1.0.0",
+  "description" : "iwin247's EDCAN server framework",
+  "keywords" : [
+    "iwin.js",
+    "iwin247",
+    "js",
+    "node.js",
+    "node",
+    "data",
+    "EDCAN",
+    "edcan"
+  ],
+  "author": { "name": "iwin247", "email": "iwin247@edcan.kr", "url": "http://blog.iwin247.kr/" },
+  "dependencies" : {
+    "express" : "*",
+    "mongoose" : "*",
+    "randomstring" : "*",
+    "multer": "*",
+    "Q": "*",
+    "passport" : "*",
+    "passport-github-token": "*",
+    "passport-twitter-token": "*",
+    "passport-facebook-token" : "*",
+    "commander": "2.7.1",
+    "mkdirp": "0.5.1",
+    "sorted-object": "2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iwin247/EDServer.git"
+  },
+  "bugs": {
+    "url": "http://github.com/iwin247/EDServer/issues"
+  },
+  "preferGlobal": true,
+  "main": "index.js",
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  }],
+  "readme": "README.md"
+}
